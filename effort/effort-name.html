@@ -134,7 +134,7 @@
           bevelSegments: 5
         })
         const textMaterial = new THREE.MeshBasicMaterial({
-          color: 0x000000
+          color: 0xffffff
         })
         const textMesh = new THREE.Mesh(
           textGeometry,
@@ -172,6 +172,7 @@
           })
           const mesh = new THREE.Mesh(geometry, material)
           scene.add(mesh)
+          /*
           const helperGeometry = new THREE.BoxBufferGeometry(100, 100, 100, 4, 4, 4)
           const helperMaterial = new THREE.MeshBasicMaterial({
             color: 0x00ff00,
@@ -179,6 +180,7 @@
           })
           const helper = new THREE.Mesh(helperGeometry, helperMaterial)
           scene.add(helper)
+          */
           const fontLoader = new THREE.FontLoader();
           fontLoader.load('fonts/helvetiker_regular.typeface.json', font => {
             addText('Look around\nfor landmarks', font, scene, {
