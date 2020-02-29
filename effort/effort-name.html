@@ -263,6 +263,7 @@
                 alert('Your device won\'t let us read its orientation, so the 3D map won\'t work.')
               }
             } else {
+              document.getElementById('threed-container').innerHTML = ''
               document.getElementById('threed-container').style.display = 'none'
               document.getElementById('big-division').style.display = ''
             }
