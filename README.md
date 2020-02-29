@@ -1,4 +1,4 @@
-# greenbook
+# Greenbook
 This repository hosts the Greenbook website.
 
 ## What is Greenbook?
