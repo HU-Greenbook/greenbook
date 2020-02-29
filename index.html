@@ -26,15 +26,15 @@
       }
 
       #map {
-        height: 90vh;
+        height: 75vh;
         width: 100vw;
         padding: 0;
       }
 
       #footer {
-        height: 10vh;
+        height: 15vh;
         width: 100vw;
-        padding: 10px 5vw;
+        padding: 0;
         background: black;
         color: white;
         display: flex;
@@ -62,10 +62,12 @@
       <iframe id="map" frameborder="0" style="border:0"
         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJfc3I0Py3t4kRodR_MzvI_ho&key=AIzaSyA5bYUvNOQWjOMe39cAAwbyq04ePajnsj4"
         allowfullscreen></iframe>
-      <div id="footer">
-        <a href="/directory.html">
-          <i class="fas fa-search"></i> Search Local Efforts
-        </a>
+      <div id="footer" style="display: flex; flex-direction: column; justify-content: center;">
+        <div style="display: flex; flex-direction: row; justify-content: center;">
+          <a href="/directory.html">
+            <i class="fas fa-search"></i> Search Local Efforts
+          </a>
+        </div>
       </div>
     </div>
   </body>
